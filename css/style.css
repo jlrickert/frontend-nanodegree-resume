@@ -63,6 +63,8 @@ h2, h3, h4, h5 {
   color: #999999;
   line-height: 16px;
   float: right;
+  padding-left: 5%;
+  padding-right: 5%;
 
 }
 
@@ -89,6 +91,32 @@ a {
 #skillsH3 {
   color: #F5AE23;
   display: none;
+}
+
+#contactMe {
+  display: block;
+  margin: auto;
+  text-shadow: 0 1px 0 rgba(255,255,255,.7);
+  letter-spacing: -.065em;
+  box-shadow: 2px 2px 7px rgba(0,0,0,.2);
+  position: center;
+  width: 140px;
+  height: 30px;
+  border-radius: 100px / 50px;
+  -moz-border-radius: 100px / 50px;
+  -webkit-border-radius: 100px / 50px;
+  z-index: 1;
+  /* border-style: solid; */
+  /* border-color: gray; */
+}
+
+#contactMe:hover {
+  -webkit-box-shadow: 5px 5px 20px rgba(0,0,0,.8);
+  -o-box-shadow: 5px 5px 20px rgba(0,0,0,.8);
+  -moz-box-shadow: 5px 5px 20px rgba(0,0,0,.8);
+  box-shadow: 5px 5px 20px rgba(0,0,0,.8);
+  /* z-index: 2; */
+  /* border-size: 10px; */
 }
 
 .orange {
