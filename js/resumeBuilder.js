@@ -358,19 +358,18 @@ $(document).ready(function () {
     $('#mapDiv').hide();
   }
 
-  // interactive contact me buttons
-  var letsConnectBtn = $('#letsConnect').find('.orange');
+  var contactMe = $("#contactMe");
 
-  letsConnectBtn.on('mouseenter', function () {
-    letsConnectBtn.css({
-    });
-  });
+  // contactMe.on('mouseenter', function () {
+  //   contactMe.slideUp();
+  // });
+  //
+  // contactMe.on('mouseleave', function () {
+  //   contactMe.slideDown();
+  // });
 
-  letsConnectBtn.on('mouseleave', function () {
-    letsConnectBtn.css({
-    });
-  });
-
-  letsConnectBtn.on('click', function () {
+  contactMe.on('click' , function () {
+    var mailto = 'mailto:' + bio.contacts['email'];
+    document.location.href = mailto;
   });
 });

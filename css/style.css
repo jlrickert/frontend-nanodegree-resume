@@ -106,8 +106,6 @@ a {
   -moz-border-radius: 100px / 50px;
   -webkit-border-radius: 100px / 50px;
   z-index: 1;
-  /* border-style: solid; */
-  /* border-color: gray; */
 }
 
 #contactMe:hover {
@@ -115,8 +113,10 @@ a {
   -o-box-shadow: 5px 5px 20px rgba(0,0,0,.8);
   -moz-box-shadow: 5px 5px 20px rgba(0,0,0,.8);
   box-shadow: 5px 5px 20px rgba(0,0,0,.8);
-  /* z-index: 2; */
-  /* border-size: 10px; */
+  -ms-transform: translate(0px, -2px);
+  -webkit-transform: translate(0px, -2px);
+  transform: translate(0px, -2px;)
+  z-index: 2;
 }
 
 .orange {
